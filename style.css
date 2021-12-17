@@ -1,0 +1,42 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template-areas:
+    'sidebar main';
+
+  background-color: azure;
+}
+
+
+#barra-sin {
+  grid: sidebar;
+  width: 266px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: #C4C4C4;
+  align-content: center;
+
+}
+
+#main {
+  grid: main;
+
+}
+
+
+.logo {
+  width: 185px;
+  height: 55;;
+  background-color: white;
+  
+
+}
